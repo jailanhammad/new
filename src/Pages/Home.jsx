@@ -2,6 +2,8 @@ import React from 'react';
 import './Home.css';
 import hero from '../Assets/hero.png';
 import Header from '../Components/Layout/Header';
+import Card from '../Components/Common/Card';
+import NewCard from '../Components/Common/NewCard';
 
  const Home = () => {
     return ( 
@@ -64,38 +66,13 @@ Delivering value to our clients, our <br /> community and our shareholders
 
 <div className='row-1'>
 
-<div className='box'>
-
-<div className='circle'>
-</div>
-
-<h1 className='text-01'>Apply for a New Account</h1>
-
-
-</div>
 
 
 
-<div className='box'>
+<Card />
+<Card />
+<Card />
 
-<div className='circle'>
-</div>
-
-<h1 className='text-01'>Apply for a New Account</h1>
-
-
-</div>
-
-
-<div className='box'>
-
-<div className='circle'>
-</div>
-
-<h1 className='text-01'>Apply for a New Account</h1>
-
-
-</div>
 
 </div>
 
@@ -110,6 +87,16 @@ Delivering value to our clients, our <br /> community and our shareholders
     </p>
 
     <h1 className='apply-text-2'>Learn more about banking and your finances</h1>
+
+
+<div className='roww'>
+
+<NewCard />
+<NewCard />
+<NewCard />
+
+</div>
+
 
 
 </div>
